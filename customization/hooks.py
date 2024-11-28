@@ -166,6 +166,17 @@ app_license = "mit"
 # 	],
 # }
 
+fixtures = [
+
+    {"doctype": "Custom Field", "filters": [
+        ["name", "in", [
+            "Employee-custom_category", 
+            "Employee-custom_division"
+        ]]
+    ]}
+]
+
+
 # Testing
 # -------
 
